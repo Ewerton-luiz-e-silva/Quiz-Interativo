@@ -84,22 +84,22 @@ const subjects = [
                 correct: 1 
             },
 
-            { question: "Qual princípio da Ypê defende a construção de uma cultura de respeito ao meio ambiente e às pessoas?", 
+            { question: "Qual princípio da Empresa defende a construção de uma cultura de respeito ao meio ambiente e às pessoas?", 
                 options: ["Integridade", "Liderança responsável", "Responsabilidade socioambiental"], 
                 correct: 2 
             },
 
-            { question: "O que significa 'TPM' na Ypê?", 
+            { question: "O que significa 'TPM' na Empresa?", 
                 options: ["Total Performance Management", "Total Process Management", "Total People Management"], 
                 correct: 0 
             },
 
-            { question: "Qual princípio da Ypê envolve a transparência e divulgação de informações?", 
+            { question: "Qual princípio da Empresa envolve a transparência e divulgação de informações?", 
                 options: ["Compromisso com a nossa gente", "Transparência e divulgação de informações", "Respeito à concorrência"], 
                 correct: 1 
             },
 
-            { question: "Qual princípio da Ypê destaca a importância do equilíbrio entre amor-próprio e altruísmo?", 
+            { question: "Qual princípio da Empresa destaca a importância do equilíbrio entre amor-próprio e altruísmo?", 
                 options: ["Compromisso com a empresa", "Solidariedade", "Liderança responsável"], 
                 correct: 1 
             },
