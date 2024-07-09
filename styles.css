@@ -9,7 +9,7 @@ body {
 /* Container principal */
 .container {
     max-width: 800px;
-    margin: 5px auto;
+    margin: 100px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -20,6 +20,13 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+    display: block;
+}
+
+header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 10%;
 }
 
 header h1 {
