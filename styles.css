@@ -9,7 +9,7 @@ body {
 /* Container principal */
 .container {
     max-width: 800px;
-    margin: 5px auto;
+    margin: 2% auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -145,4 +145,29 @@ button:disabled {
 
 .mensagem {
     text-align: center;
+    font-size: 15px;
+}
+
+/* Footer */
+footer {
+    padding-bottom: 1%;
+    width: 100%;
+    border-top: #555 solid;
+    background-color: rgba(133, 126, 126, 0.2);
+}
+
+.des08 {
+    text-align: center;
+}
+
+.des08 h2 {
+    font-size: 20px;
+}
+
+.des08 p {
+    font-size: 15px;
+}
+
+.des08 span {
+    font-size: 15px;
 }
