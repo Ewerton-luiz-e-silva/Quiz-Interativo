@@ -9,9 +9,11 @@
 </head>
 <body>
     <div class="container">
+            <div class="titulo">
+                <h1>Quiz Interativo</h1> <img src="./Imagem do WhatsApp de 2024-07-02 à(s) 23.16.08_52bccdb3.jpg"> <!-- Título principal da página -->
+            </div>
 
         <header>
-            <h1>Quiz Interativo</h1> <img src="./Imagem do WhatsApp de 2024-07-02 à(s) 23.16.08_52bccdb3.jpg"> <!-- Título principal da página -->
             <p id="header-paragraph">Teste seus conhecimentos em diferentes Modalidade!</p> <!-- Parágrafo explicativo opcional -->
         </header>
 
@@ -41,7 +43,7 @@
 
         <section id="quiz">
 
-            <div id="question"></div> <!-- Espaço para exibir a pergunta atual -->
+            <div class="quiz" id="question"></div> <!-- Espaço para exibir a pergunta atual -->
 
             <div class="options">
                 <!-- Opções de resposta, com função onclick para chamar selectAnswer() -->
@@ -51,11 +53,11 @@
             </div>
 
             <div class="buttons">
-                <button id="prevButton" onclick="prevQuestion()">Anterior</button> <!-- Botão para pergunta anterior -->
-                <button id="nextButton" onclick="nextQuestion()">Próxima</button> <!-- Botão para próxima pergunta -->
+                <button class="Anterior" id="prevButton" onclick="prevQuestion()">Anterior</button> <!-- Botão para pergunta anterior -->
+                <button class="Proxima" id="nextButton" onclick="nextQuestion()">Próxima</button> <!-- Botão para próxima pergunta -->
             </div>
 
-            <button class="backButton" onclick="returnToSubjectSelection()">Voltar à seleção de Modalidade</button> <!-- Botão para voltar à seleção de matérias -->
+            <button class="backButton" onclick="returnToSubjectSelection()">Voltar à seleção</button> <!-- Botão para voltar à seleção de matérias -->
 
         </section>
 
@@ -67,9 +69,9 @@
 
             <div id="review"></div> <!-- Espaço para revisar respostas -->
 
-            <button onclick="restartQuiz()">Reiniciar Quiz</button> <!-- Botão para reiniciar o quiz -->
+            <button class="reiniciar" onclick="restartQuiz()">Reiniciar Quiz</button> <!-- Botão para reiniciar o quiz -->
 
-            <button id="subjectSelectionButton" onclick="returnToSubjectSelection()">Seleção de Modalidade</button> <!-- Botão para voltar à seleção de matérias -->
+            <button class="selecao" id="subjectSelectionButton" onclick="returnToSubjectSelection()">Seleção de Modalidade</button> <!-- Botão para voltar à seleção de matérias -->
 
         </section>
 
