@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./Imagem do WhatsApp de 2024-07-02 à(s) 23.16.08_52bccdb3.jpg">
     <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css"> <!-- Inclui o arquivo CSS externo -->
 </head>
 <body>
@@ -53,11 +54,11 @@
             </div>
 
             <div class="buttons">
-                <button class="Anterior" id="prevButton" onclick="prevQuestion()">Anterior</button> <!-- Botão para pergunta anterior -->
-                <button class="Proxima" id="nextButton" onclick="nextQuestion()">Próxima</button> <!-- Botão para próxima pergunta -->
+                <button class="Anterior" id="prevButton" onclick="prevQuestion()">Anterior <i class="bi bi-caret-left-square"></i></button> <!-- Botão para pergunta anterior -->
+                <button class="Proxima" id="nextButton" onclick="nextQuestion()"><i class="bi bi-caret-right-square"></i> Próxima</button> <!-- Botão para próxima pergunta -->
             </div>
 
-            <button class="backButton" onclick="returnToSubjectSelection()">Voltar à seleção</button> <!-- Botão para voltar à seleção de matérias -->
+            <button class="backButton" onclick="returnToSubjectSelection()"><i class="bi bi-card-list"></i> Voltar à seleção</button> <!-- Botão para voltar à seleção de matérias -->
 
         </section>
 
@@ -69,9 +70,9 @@
 
             <div id="review"></div> <!-- Espaço para revisar respostas -->
 
-            <button class="reiniciar" onclick="restartQuiz()">Reiniciar Quiz</button> <!-- Botão para reiniciar o quiz -->
+            <button class="reiniciar" onclick="restartQuiz()"><i class="bi bi-card-checklist"></i> Reiniciar Quiz</button> <!-- Botão para reiniciar o quiz -->
 
-            <button class="selecao" id="subjectSelectionButton" onclick="returnToSubjectSelection()">Seleção de Modalidade</button> <!-- Botão para voltar à seleção de matérias -->
+            <button class="selecao" id="subjectSelectionButton" onclick="returnToSubjectSelection()"><i class="bi bi-card-list"></i> Seleção de Modalidade</button> <!-- Botão para voltar à seleção de matérias -->
 
         </section>
 
