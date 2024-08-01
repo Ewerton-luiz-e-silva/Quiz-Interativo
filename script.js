@@ -92,7 +92,9 @@ function showResults() {
         const userAnswerText = answer.selected !== null ? subjects[currentSubjectIndex].questions[index].options[answer.selected] : "Não respondido";
         const correctAnswerText = subjects[currentSubjectIndex].questions[index].options[subjects[currentSubjectIndex].questions[index].correct];
         answerElement.html(`<strong>Q${index + 1}:</strong> ${subjects[currentSubjectIndex].questions[index].question} <br/>
+        <br/>
         Sua resposta: ${userAnswerText} <br/>
+        <br/>
         Resposta correta: ${correctAnswerText}`);
         review.append(answerElement);
     });
