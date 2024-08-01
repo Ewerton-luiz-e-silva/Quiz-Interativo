@@ -214,15 +214,19 @@ button:disabled {
     border: 4px solid blue;
 }
 
+.backButtond {
+    text-align: center;
+}
+
 .backButton {
-    margin-left: 70%;
+    margin-top: 10%;
     background-color: rgb(224, 51, 51);
     font-weight: bold;
     border: 4px solid transparent;
 }
 
 .backButton:hover {
-    margin-left: 70%;
+    margin-top: 10%;
     border: 4px solid #fff;
     background-color: red;
     font-weight: bold;
